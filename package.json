@@ -1,7 +1,9 @@
 {
-  "name": "aora",
+  "name": "Aora",
+  "slug": "aora",
+  "scheme": "aora",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,13 +11,25 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~4.0.0",
     "expo": "~52.0.7",
+    "expo-router": "^4.0.5",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
-    "react-native": "0.76.2"
+    "react-dom": "18.3.1",
+    "react-native": "0.76.2",
+    "react-native-web": "~0.19.13"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
+  "userInterfaceStyle": "light",
+  "orientation": "portrait",
+  "assetsBundlePatterns": [
+    "**/*"
+  ],
+  "plugins": [
+    "expo-router"
+  ],
   "private": true
 }
