@@ -7,8 +7,8 @@ const RootLayout = () => {
     <View className='flex-1 items-center justify-center bg-red'>
       <Text className='text-3xl font-pblack'>Aora!</Text>
       <StatusBar style='auto' />
-      <Link href='/profile' className='text-gray'>
-        Go to Profile
+      <Link href='/home' className='text-gray'>
+        Go to Home
       </Link>
     </View>
   );
