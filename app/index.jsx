@@ -5,9 +5,9 @@ import { Link } from "expo-router";
 const RootLayout = () => {
   return (
     <View className='flex-1 items-center justify-center bg-red'>
-      <Text className='text-5xl'>Aora!</Text>
+      <Text className='text-3xl font-pblack'>Aora!</Text>
       <StatusBar style='auto' />
-      <Link href='/profile' style={{ color: "#c5c5ef" }}>
+      <Link href='/profile' className='text-gray'>
         Go to Profile
       </Link>
     </View>
